@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto&display=swap');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+
+}
+
+h2 {
+    
+}
+input:active {
+    color:#0A72E4;
+    }
+    
+
+input:focus {
+color:#0A72E4;
+}
+
+input::placeholder {
+    color:#0A72E4;
+    }
+    
+
+.container {width: 90%;margin: 0 auto;}
+
+.cover_box {padding-top: 72px;padding-bottom: 20px;}
+
+
+.cover_img {width: 50%;margin: 0 auto;}
+
+.cover_img img {
+    width: 100%;
+}
+
+.welcome_text {font-weight: 600;text-align: center;font-size: 26px;}
+
+.welcome_description {font-weight: 300;color: #7b8b97ee;font-size: 13px;text-align: center;}
+
+.login_form {width: 100%;margin: 0 auto;}
+
+.login_input {width: -webkit-fill-available;padding: 14px 27px 10px 43px;font-size: 16px;margin-bottom: 20px;border-radius: 24px;border: 2px solid #0A72E4;color: #0A72E4;}
+
+.forgot_text {text-align: right;font-size: 15px;font-weight: 500;color: #4b4b4b;}
+
+.login_btn {margin: 0 auto;background: #0048a4;border: #0048a4;color: #fff;width: 235px;padding: 14px;border-radius: 25px;margin-top: 20px;font-weight: 600;font-size: 17px;}
+
+
+.more_options {margin-top: 50px;}
+.or_text {margin-bottom: 20px;text-align: center;color: #999;}
+.buttons_wrapper {display: flex;justify-content: space-around;}
+
+.f_btn {background: #385c8e;color: #fff;padding: 11px 20px;font-size: 17px;display: flex;align-items: center;border-radius: 7px;}
+.login {
+    display: flex;
+}
+
+.f_btn img {
+    height: 20px;
+    filter: invert(1);
+    margin-right: 10px;
+}
+.g_btn {background: #f14436;color: #fff;padding: 11px 20px;font-size: 17px;display: flex;align-items: center;border-radius: 7px;}
+
+.g_btn img {
+    height: 20px;
+    filter: invert(1);
+    margin-right: 10px;
+}
+.no_account {margin-top: 76px;text-align: center;}
+.create_acount_text {font-size: 15px;}
+
+.create_acount_text  a {
+text-decoration: none;
+}
+
+.blue_text {font-weight: 500;}
+
+
+.user_icon {position: absolute;margin-left: 15px;margin-top: 14px;}
+
+.user_icon img {height: 20px;}
+
+
+.lock_icon {position: absolute;margin-left: 15px;margin-top: 16px;}
+
+
+.lock_icon img {height: 20px;}
